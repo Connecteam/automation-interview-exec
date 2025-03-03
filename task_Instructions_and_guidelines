@@ -15,6 +15,7 @@ Create one test that preforms the following steps:
         3. Email
         4. Phone
         5. CV file upload - please use the pdf example you have in the root of the project (example_cv.pdf)
+        Please dont click on submit application cause it will trigger a recaptcha!!
 
 Feel free to use the video recording of the theses steps in this video link:
 
