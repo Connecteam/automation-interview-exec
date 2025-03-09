@@ -17,6 +17,8 @@ Create one test that preforms the following steps:
         5. CV file upload - please use the pdf example you have in the root of the project (example_cv.pdf)
         Please dont click on submit application cause it will trigger a recaptcha!!
 
+Important!, some positions may have been removed from the web site . in that case you may skip filling the details for that position and move to the next one, see the removed_position_example.png in the root of the project.
+
 Feel free to use the video recording of the theses steps in this video link:
 
 https://connecteam-public.s3.eu-west-1.amazonaws.com/qa_automation/interview/task_instructions_recording.mp4
