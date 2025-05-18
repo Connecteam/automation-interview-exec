@@ -11,6 +11,7 @@ def chrome_web_driver_base(request):
     options = webdriver.ChromeOptions()
     options.add_argument("--incognito")
     options.add_argument("--allow-running-insecure-content")
+    options.add_argument("--disable-notifications")
 
     try:
         service = Service()
@@ -26,4 +27,4 @@ def chrome_web_driver_base(request):
 
     chrome_web_driver.maximize_window()
     yield chrome_web_driver
-    chrome_web_driver.close()
+    chrome_web_driver.quit()
